@@ -1,0 +1,14 @@
+D:\Repositories\Leetcode-repo\Island Perimeter\IslandPerimeter\bin\Debug\net7.0\IslandPerimeter.exe
+D:\Repositories\Leetcode-repo\Island Perimeter\IslandPerimeter\bin\Debug\net7.0\IslandPerimeter.deps.json
+D:\Repositories\Leetcode-repo\Island Perimeter\IslandPerimeter\bin\Debug\net7.0\IslandPerimeter.runtimeconfig.json
+D:\Repositories\Leetcode-repo\Island Perimeter\IslandPerimeter\bin\Debug\net7.0\IslandPerimeter.dll
+D:\Repositories\Leetcode-repo\Island Perimeter\IslandPerimeter\bin\Debug\net7.0\IslandPerimeter.pdb
+D:\Repositories\Leetcode-repo\Island Perimeter\IslandPerimeter\obj\Debug\net7.0\IslandPerimeter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositories\Leetcode-repo\Island Perimeter\IslandPerimeter\obj\Debug\net7.0\IslandPerimeter.AssemblyInfoInputs.cache
+D:\Repositories\Leetcode-repo\Island Perimeter\IslandPerimeter\obj\Debug\net7.0\IslandPerimeter.AssemblyInfo.cs
+D:\Repositories\Leetcode-repo\Island Perimeter\IslandPerimeter\obj\Debug\net7.0\IslandPerimeter.csproj.CoreCompileInputs.cache
+D:\Repositories\Leetcode-repo\Island Perimeter\IslandPerimeter\obj\Debug\net7.0\IslandPerimeter.dll
+D:\Repositories\Leetcode-repo\Island Perimeter\IslandPerimeter\obj\Debug\net7.0\refint\IslandPerimeter.dll
+D:\Repositories\Leetcode-repo\Island Perimeter\IslandPerimeter\obj\Debug\net7.0\IslandPerimeter.pdb
+D:\Repositories\Leetcode-repo\Island Perimeter\IslandPerimeter\obj\Debug\net7.0\IslandPerimeter.genruntimeconfig.cache
+D:\Repositories\Leetcode-repo\Island Perimeter\IslandPerimeter\obj\Debug\net7.0\ref\IslandPerimeter.dll
