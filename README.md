@@ -1,16 +1,22 @@
 # Intuition
-The problem is asking to calculate the perimeter of an island in a 2D grid. The island is represented by 1s, and the water is represented by 0s. The grid cells are connected vertically and horizontally. The intuition here is to iterate over each cell in the grid and for each land cell, add 4 (for each side of the cell) to the perimeter. Then, for each adjacent land cell (up, down, left, right), subtract 1 from the perimeter.
+The problem involves counting the number of islands in a 2D grid map of land and water. An island is a group of connected lands (horizontally or vertically) surrounded by water. To solve this problem, we can use a graph traversal algorithm such as Depth First Search (DFS) or Breadth First Search (BFS). When we encounter land (a '1'), we start a traversal from that point to explore the entire island and mark the visited lands as water (or '0') to avoid counting the same island multiple times. This way, each time we encounter a new land cell, it represents a new island.
 
 # Approach
-The approach is to iterate over the grid. For each cell that island (1), add 4 to the perimeter. Then, check the adjacent cells. If there is a cell above and it is land, subtract 1 from the perimeter. If there is a cell below and it is land, subtract 1 from the perimeter. If there is a cell to the left and it is land, subtract 1 from the perimeter. If there is a cell to the right and it is land, subtract 1 from the perimeter. Finally, return the calculated perimeter.
-
+1. Initialization: Initialize a counter to keep track of the number of islands. Check for edge cases where the grid is null or empty.
+2. Grid Traversal: Iterate through each cell in the 2D grid.
+3. Land Encounter: When you encounter a land cell (a '1'), it represents the start of a new island.
+4. Increase Counter: Increase the island counter and use a DFS function to explore the island.
+5. DFS Exploration: The DFS function explores the island recursively, marking visited land cells as water (changing '1' to '0') to prevent revisiting them.
+6. Exploration Directions: From each land cell, explore the four possible directions (up, down, left, right).
+7. Return Count: After exploring the entire grid, return the island count.
 # Complexity
- - Time complexity: The time complexity is O(n^2), where n is the number of rows (or columns) in the grid. This is because we are iterating over each cell in the grid once.
+-Time complexity: The algorithm needs to traverse each cell in the grid once to explore all the islands. Therefore, the time complexity is O(m×n), where m is the number of rows and n is the number of columns in the grid.
 
-- Space complexity: The space complexity is O(1), as we are not using any additional data structures that scale with the input size. The space used by the input grid is not counted towards the space complexity.
+-Space complexity: The space complexity is determined by the maximum depth of the recursion stack during the DFS exploration. In the worst case, it could be the total number of cells in the grid. Therefore, the space complexity is also O(m×n).
+
 __________________________________________________________________________________________
 # Create a new console project
-dotnet new console -n IslandPerimeter
+dotnet new console -n Number of Islands
 
 # Run the project
 dotnet run
